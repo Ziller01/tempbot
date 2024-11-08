@@ -38,7 +38,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Scope+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Timmana&display=swap" />
-    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="preload" href="./css/output.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+      <link rel="stylesheet" href="./css/output.css" />
+    </noscript>
   </head>
 
   <body class="bg-black text-white flex flex-col items-center justify-center">
